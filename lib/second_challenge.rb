@@ -6,7 +6,6 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-values_array = []
-values_array << groceries.values{|key, values|}
+groceries.values{|key, values|}
 
 end
