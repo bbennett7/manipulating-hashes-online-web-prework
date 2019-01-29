@@ -6,7 +6,9 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  groceries.values do |key, food_arrays|
+  values_array = []
+  values_array << groceries.values do |key, food_arrays|
   end
+  values_array.flatten
 
 end
