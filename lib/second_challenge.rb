@@ -6,9 +6,10 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-values_array = groceries.values do |key, food_arrays|
+groceries.values do |key, food_arrays|
+  new_array = []
   food_arrays.each do |food|
-    puts "#{food}"
+    new_array << puts "#{food}"
   end
 end
 
