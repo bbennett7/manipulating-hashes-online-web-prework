@@ -6,6 +6,6 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-groceries.collect{|key, name| puts "#{name}"}
+groceries.collect{|key, array| puts "#{array}"}
 
 end
