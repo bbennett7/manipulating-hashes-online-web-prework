@@ -6,6 +6,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-groceries.values{|key, values|}
+values_array = groceries.values{|key, values|}
+values_array.each{|array| array.merge}
 
 end
