@@ -7,6 +7,6 @@ def second_challenge
   }
 
 values_array = groceries.values{|key, values|}
-values_array.each{|array| array}
+values_array.each{|array| array.collect}
 
 end
